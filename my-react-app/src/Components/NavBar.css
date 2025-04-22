@@ -1,0 +1,26 @@
+.navbar {
+    background-image: url('../assets/navbar.png'); 
+    background-size: cover;
+    background-repeat: repeat; 
+    background-size: auto; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    image-rendering: pixelated;
+}
+
+.links {
+    color: black; 
+    font-size: 1.3rem;
+    font-weight: bold; 
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.links:hover {
+    color: black;
+    text-shadow: 0 0 2rem #b3b3b3; 
+}
