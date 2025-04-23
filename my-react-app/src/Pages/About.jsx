@@ -3,8 +3,8 @@ import './About.css';
 import {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import {ArrowLeft, ArrowRight} from 'lucide-react'; 
-import studentImg from '../Assets/student.jpg';
-import programmerImg from '../Assets/programmer.jpg';
+import studentImg from '../Assets/student.png';
+import programmerImg from '../Assets/programmer.png';
 import workerImg from '../Assets/worker.jpg';
 
 const characters = [
@@ -41,9 +41,9 @@ export function About() {
     const handleClick = () => navigate(characters[index].route);
     
     return(
-        <div className='about-container'>
+        <div className='about'>
             <h1 className='about-title'>Choose your character</h1>
-            <div>
+            <div className='about-container'>
                 <button onClick={handlePrev}>
                     <ArrowLeft size={48}/>
                 </button>
